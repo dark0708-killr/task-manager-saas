@@ -1,10 +1,79 @@
-﻿node_modules/
-dist/
-build/
-.env
-.env.local
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+.lerna-debug.log*
+
+# Build outputs
+/dist
+/build
+/out
+/coverage
+/.next
+/.nuxt
+/.svelte-kit
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+logs
 *.log
+
+# Docker
+docker-compose.override.yml
+
+# Uploads
+/uploads
+
+# Misc
+.cache
+.temp
+*/.cache
+*/.temp
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Package files
+*.tgz
+*.whl
+
+# Coverage reports
+coverage/
+.lcov/
+*.lcov*
+
+# Test artifacts
+*.test.js
+*.spec.js
+
+# Local development
+.devcontainer/
+.vscode-test/
+
+# Redis dump
+dump.rdb
+
+# MongoDB
+*.bson
+*.mongodb.lock
